@@ -8,7 +8,7 @@ function display(value)
     document.getElementById("result").value += value;
 }
 function delLast()
-{ var s= document.getElementById("result").value.toString();
+{ var s= document.getElementById("result").value;
   var str = (s.substring(0, s.length - 1)); 
 document.getElementById("result").value = str; 
 }
